@@ -35,7 +35,7 @@ Exercise2
 
 draw markup http://html-templates.info/images/items/140526093101.jpg
 
-Save result to folder "Exercise2" with folder name as you github login for example visplord
+Save result to folder "Exercise2" with folder name as you github login for example EarlOld.
 
 3. СSS
 Теорія
