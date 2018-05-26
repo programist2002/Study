@@ -36,7 +36,7 @@
     .block{
         margin: 1% 1% 1% 1%;
         width: 30.75%;
-        height: 200px;
+        height: 230px;
     }
     .block_image{
         font-size: 10px;
@@ -47,6 +47,7 @@
     }
     #footer{
         height: 40px;
+        bottom: -21px;
     }
     #urlsbotton{
         right: 30px;
