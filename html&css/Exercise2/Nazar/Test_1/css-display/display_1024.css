@@ -1,0 +1,55 @@
+@media(max-width: 1024px)
+{
+    #header{
+        height: 30px;
+    }
+    #name{
+        width: 60px;
+        height: px;
+        font-size: 20px;
+        left: 30px;
+        top: 3px;
+    }
+    #urls{
+        font-size: 15px;
+        top: -5vh;
+        right: 25px;
+    }
+    #main{
+        margin: 0px auto;
+    }
+    #slider{
+        margin: 3px auto;
+        height: 220px;
+        font-size: 30px;
+    }
+    #text
+    {
+        margin: 3px auto;
+        height: 220px;
+        font-size: 30px;
+    }
+    #blocks{
+        margin: 3px auto;
+        height: auto;
+    }
+    .block{
+        margin: 1% 1% 1% 1%;
+        width: 30.75%;
+        height: 200px;
+    }
+    .block_image{
+        font-size: 10px;
+    }
+    .block_text{
+        margin-top: 2%; 
+        font-size: 10px;
+    }
+    #footer{
+        height: 40px;
+    }
+    #urlsbotton{
+        right: 30px;
+        bottom: -7.5px;
+    }
+}
