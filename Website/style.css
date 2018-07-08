@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%; 
+}
+
+header {
+	float: left;
+	background-color: #DFDFDF;
+	width: 100%;
+	top: 0px;
+	height: 100px;
+	box-shadow: 0 6px 4px -4px #636A6D;
+}
+
+.container_header {
+	width: 82%;
+	height: 100%;
+	float: left;
+	margin-left: 9%;
+	/* background-color: #2FFF00; */
+}
+
+.name {
+	font-style: italic;
+	position: relative;
+	width: 8.5%;
+	height: 50px;
+	left: 0vw;
+	font-size: 40px;
+	color: #636A6D;
+	/* background-color: red; */	
+	font-weight: bold; 
+	bottom: -35px;
+}
+
+.menu {
+	text-align: right;
+	position: relative;
+	font-style: italic;
+	font-size: 24px;
+	/* background-color: orange; */
+	width: 500px;
+	word-spacing: 30px;
+	position: relative;
+	float: right;
+	top: 0;
+}
+
+.Items {
+	position: relative;
+	font-style: initial;
+	display: inline-block;
+	/* background-color: red; */
+}
+
+a {
+	text-decoration: none;
+	color: #636A6D;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+
+.container {
+	width: 82%;
+	float: left;
+	margin-left: 9%;
+	margin-top: 100px;
+	background-color: #ffffff;
+	height: auto;
+	position: relative;
+}
+
+.photo {
+	width: 100%;
+	height: 520px;
+	background-color: #B19CC7;
+}
+
+.shadow {
+	width: 92%;
+	background-color: #484848;
+	border-bottom: 30px solid #484848;
+	-webkit-transform: perspective(300px) rotateX(40deg);
+	transform-height: perspective(300px) rotateX(40deg);
+	margin-left: 4%;
+	margin-top: -4px;
+	box-shadow: 0 10px 20px 15px #484848;
+}
+
+.Text_under_the_photo {
+	width: 100%;
+	text-align: center;
+	margin-top: 80px;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	color: #636A6D;
+	letter-spacing: 1px;
+}
+
+.container_block {
+	width: 100%;
+	height: 340px;
+	/* background-color: orange; */
+	margin-top: 75px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 500px;
+}
+
+.block {
+	width: 22%;
+	height: 100%;
+	/* background-color: #FF00AE; */
+}
+
+.block_foto {
+	width: 100%;
+	height: 175px;
+	background-color: #B4C3E0;
+	font-style: italic;
+	box-shadow: 4px 1px 10px -4px #000000;
+} 
+
+.block_text {
+	font-size: 19px;
+	margin-top: 28px;
+	text-align: center;
+	color: #636A6D;
+}
+
+footer {
+	width: 100%
+	height: 30px;
+}
