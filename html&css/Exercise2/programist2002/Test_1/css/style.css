@@ -1,0 +1,106 @@
+ html, body {
+ 	-webkit-font-smoothing: antialiased;
+ 	-webkit-overflow-scrolling: touch;
+ 	overflow-x: hidden;
+ 	font-size: 17px;
+ 	font-style: italic;
+ }
+
+/*********************** Стили для Header ***********************/
+
+.navbar-inverse {
+	background: #E2E2E2;
+	border-bottom: none;
+	height: 60px;
+	box-shadow: 0 6px 4px -4px #636A6D; /* Можна видалити */
+}
+
+.container {
+	margin-top: 5px;
+	background-color: #E2E2E2;
+	border-radius: 2%; /* Можна видалити */
+}
+
+.navbar-inverse .navbar-brand {
+	color: #5A5F63;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #798083;
+}
+
+.navbar-brand {
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 0;
+}
+
+.navbar-nav, .navbar-brand {
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+
+.navbar-nav {
+	font-size: 15px;
+}
+
+.navbar-toggle {
+	border-style: none;
+	background-color: #ADB1A8;
+}
+
+/*********************** Стили для Body ***********************/
+
+#carousel {
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+#content{
+	color: #747B79;
+	text-align: center;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+}
+
+.thumbnail .caption  {
+	font-size: 15px;
+	text-align: center;
+}
+
+.thumbnail .caption p {
+	color: #939497;
+}
+
+.caption h4 {
+	color: #747B79;
+	margin-bottom: -8px;
+}
+
+#thumbnail {
+	margin-bottom: 400px;
+	margin-top: 40px;
+}
+
+/*********************** Стили для Footer ***********************/
+
+footer {
+	width: 100%;
+	float: right;
+	padding: 0.5%;
+	background-color: #DCDCDC;
+	border-top: 1.5px solid #A1A59C;
+}
+#social img {
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-left: -90px;
+	margin-right: 140px;
+}
+
+#rights {
+	margin-left: 140px;
+	color: #686C63;
+	margin-top: 3px;
+}

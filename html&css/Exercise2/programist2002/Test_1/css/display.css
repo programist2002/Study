@@ -1,0 +1,431 @@
+@media screen and (min-width: 0px) and (max-width: 320px) {
+	
+	/*********************** Стилі для Body ***********************/
+
+	#carousel {
+		margin-top: 60px;
+	}
+
+	.carousel-caption h3, p {
+		font-size: 16px;
+	}
+
+	.carousel-caption h3 {
+		margin-bottom: 2px;
+	}
+
+	#content p {
+		font-size: 11px;
+		margin-bottom: 15px;
+	}
+
+	#thumbnail {
+		margin-bottom: 200px;
+	}
+
+	.thumbnail img {
+		width: 200px;
+		height: 130px;
+
+	}
+
+	.thumbnail {
+		width: 210px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.caption p {
+		font-size: 12px;
+	}
+
+	.caption h4 {
+		font-size: 15px;
+		margin-bottom: -12px;
+	}
+
+	/*********************** Стили для Footer ***********************/
+
+	footer {
+		-display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer {
+		padding: 2.0%;
+	}
+
+	#social {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#social img {
+		margin-left: 10px;
+		margin-right: 10px;
+		width: 25px;
+		height: 25px;
+	}
+
+	#rights {
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 15px;
+	}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+	/*********************** Стили для Body ***********************/
+
+	#carousel {
+		margin-top: 60px;
+	}
+
+	.carousel-caption h3, p {
+		font-size: 16px;
+	}
+
+	.carousel-caption h3 {
+		margin-bottom: 2px;
+	}
+
+	#content p {
+		font-size: 11px;
+		margin-bottom: 15px;
+	}
+
+	#thumbnail {
+		margin-bottom: 200px;
+	}
+
+	.thumbnail img {
+		width: 210px;
+		height: 130px;
+
+	}
+
+	.thumbnail {
+		width: 210px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.caption p {
+		font-size: 12px;
+	}
+
+	.caption h4 {
+		font-size: 15px;
+		margin-bottom: -12px;
+	}
+
+	/*********************** Стили для Footer ***********************/
+
+	footer {
+		-display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer {
+		padding: 2.0%;
+	}
+
+	#social {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#social img {
+		margin-left: 10px;
+		margin-right: 10px;
+		width: 25px;
+		height: 25px;
+	}
+
+	#rights {
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 15px;
+	}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+	/*********************** Стили для Header ***********************/
+
+	.navbar-brand {
+		font-size: 30px;
+	}
+
+	.navbar-nav {
+		font-size: 20px;
+	}
+
+	/*********************** Стили для Body ***********************/
+	
+
+	#carousel {
+		margin-top: 60px;
+	}
+
+	.carousel-caption h3, p {
+		font-size: 25px;
+	}
+
+	.carousel-caption h3 {
+		margin-bottom: 5px;
+	}
+
+	#content p {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	#thumbnail {
+		margin-bottom: 200px;
+	}
+
+	.thumbnail img {
+		width: 300px;
+		height: 180px;
+
+	}
+
+	.thumbnail {
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.caption p {
+		font-size: 18px;
+	}
+
+	.caption h4 {
+		font-size: 20px;
+		margin-bottom: -12px;
+	}
+
+	/*********************** Стили для Footer ***********************/
+
+	footer {
+		-display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer {
+		padding: 1.0%;
+	}
+	
+	#social {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#social img {
+		margin-left: 10px;
+		margin-right: 10px;
+		width: 30px;
+		height: 30px;
+	}
+
+	#rights {
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 20px;
+	}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+	/*********************** Стили для Body ***********************/
+
+	.thumbnail img {
+		width: 250px;
+		height: 150px;
+
+	}
+
+	.thumbnail {
+		width: 250px;
+		height: 340px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*********************** Стили для Footer ***********************/
+
+	#social img {
+		margin-right: 120px;
+	} 
+
+	#rights {
+		margin-left: 120px;
+		margin-top: 5px;
+	}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+	/*********************** Стили для Header ***********************/
+	
+	.navbar-brand {
+		font-size: 30px;
+	}
+
+	.navbar-nav {
+		font-size: 20px;
+	}
+
+	.navbar-inverse {
+		height: 80px;
+	}
+
+	.navbar-nav, .navbar-brand {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	/*********************** Стили для Body ***********************/
+
+	#carousel {
+		margin-top: 80px;
+	}
+
+	.carousel-caption h3, p {
+		font-size: 25px;
+	}
+
+	.carousel-caption h3 {
+		margin-bottom: 5px;
+	}
+
+	#content p {
+		font-size: 20px;
+	}
+
+	.content .textbody{
+		margin-bottom: 50px;
+	}
+
+	#thumbnail {
+		margin-bottom: 350px;
+	}
+
+	.thumbnail img {
+		width: 220px;
+		height: 150px;
+
+	}
+
+	.thumbnail {
+		width: 220px;
+		height: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.caption p {
+		font-size: 18px;
+	}
+
+	.caption h4 {
+		font-size: 20px;
+		margin-bottom: -5px;
+	}
+
+	/*********************** Стили для Footer ***********************/
+
+	#social img {
+		width: 35px;
+		height: 35px;
+	}
+
+	#rights {
+		font-size: 20px;
+	}
+
+	#carousel {
+		height: 400px; 
+		width: 960px; 
+		margin-left: auto; 
+		margin-right: auto;
+	}
+
+	.carousel-inner {
+		width: 960px;
+		height: 400px;
+	}
+
+	.carousel-caption {
+		margin-bottom: 150px;
+	}
+
+	#carousel {
+		margin-top: 100px;
+	}
+
+	#thumbnail { 
+		width: 970px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+
+	/*********************** Стили для Header ***********************/
+
+	.navbar-nav, .navbar-brand {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.navbar-inverse { /* Можна видалити */
+		height: 70px;
+	}
+
+	/*********************** Стили для Body ***********************/
+
+	#carousel {
+		height: 500px; 
+		width: 1140px; 
+		margin-left: auto; 
+		margin-right: auto; 
+		margin-top: 90px;
+	}
+
+	.carousel-inner { 
+		width: 1140px;
+		height: 500px;
+	}
+
+	.carousel-caption { 
+		margin-bottom: 150px;
+	}
+
+	#thumbnail { 
+		width: 1140px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}

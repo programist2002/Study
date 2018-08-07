@@ -2,64 +2,144 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/display.css">
+	<script type="text/javascript" src="js/jQuery-3.3.1.min.js"></script>
 	<title>Макет сайта</title>
-</head>
+</head> 
 <body>
 	<header>
-		<div class="container_header">
-				<div class="name">
-					Delphic
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!----------------- Логотип ------------------->
+					<a class="navbar-brand" href="#">Delphic</a>
 				</div>
-				<div class="menu">
-					<div class="Items">
-						<a href="#">Home</a>
-					</div>
-					<div class="Items">
-						<a href="#">Portfolio</a>
-					</div>
-					<div class="Items">
-						<a href="#">Service</a>
-					</div>
-					<div class="Items">
-						<a href="#">Others</a>
-					</div>
-					<div class="Items">
-						<a href="#">Contact</a>
-					</div>
+				<!-------------------- Меню ----------------------->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active-link"><a href="#">Home</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">Others</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
 				</div>
-			</header>
-			<div class="container">	
-				<div class="photo"></div>
-				<div class="shadow"></div>
-				<div class="Text_under_the_photo">Set ut perspiciatis unde omnis iste nstus error sit voluptatem accusantium. Praesent urna<br>urna, venenatis at ultrices ac, viverra in turpis. Duis sceler isque mauri sut metus.</div>
-				<div class="container_block">
-					<div class="block">
-						<div class="block_foto"></div>
-						<div class="block_text"><h3>Phasellus Risus Quam</h3><br>Morbi mon nuns nec insum<br>tincidunt luctus allcquam vel nisi<br>Donec eu accumsan elit.
-						</div>
-					</div>	
-					<div class="block">
-						<div class="block_foto"></div>
-						<div class="block_text"><h3>Maecenas Tincidunt</h3><br>Nulla facilise. Anenean porttitor<br>cursus aliquet. Praesent sit amet<br>dictum lacus. Risus eget auque</div>
-					</div>
-					<div class="block">
-						<div class="block_foto"></div>
-						<div class="block_text"><h3>Pellentesque suscipit</h3><br>Vivamus placerat viverra<br>posuere. Duis quis luctus diam.<br>Allquam a mi id vei oeci lectus.</div>
-					</div>
-					<div class="block">
-						<div class="block_foto"></div>
-						<div class="block_text"><h3>Donec Eust Adipiscing</h3><br> Sed eu lorem sed lectus interdum<br>vehicula. Praesent sit amet  risus<br>eget augue semper</div>
+			</div>	
+		</div>
+	</header>
+	<div id="carousel" class="carousel slide">
+		<!------------------ Индикатори слайдів ------------------->
+		<ol class="carousel-indicators">
+			<li class="active" data-target="#carousel" data-slide-to="0"></li>
+			<li data-target="#carousel"  data-slide-to="1"></li>
+			<li data-target="#carousel"  data-slide-to="2"></li>
+		</ol>
+		<!------------------------ Слайды ------------------------->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/Foto.png" alt="">
+				<div class="carousel-caption">
+					<h3>Первый слайд</h3>
+					<p>Описание первого слайда</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/Foto.png" alt="">
+				<div class="carousel-caption">
+					<h3>Второй слайд</h3>
+					<p>Описание второго слайда</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/Foto.png" alt="">
+				<div class="carousel-caption">
+					<h3>Третий слайд</h3>
+					<p>Описание третьего слайда</p>
+				</div>
+			</div>
+		</div>
+		<!-------------- Стрілки перемикання слайдів -------------->
+		<a href="#carousel" class="left carousel-control" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>	
+		</a>
+		<a href="#carousel" class="right carousel-control" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+	<!------------------ Текст під слайдером ---------------------->
+	<div class="content" id="content">
+		<p class="textbody">
+			Set ut perspiciatis unde omnis iste nstus error sit voluptatem accusantium. Praesent urna<br>urna, venenatis at ultrices ac, viverra in turpis. Duis sceler isque mauri sut metus.
+		</p>
+	</div>
+	<!--------------- Блоки з текстом під слайдером --------------->
+	<div class="container_text" id="thumbnail">
+		<div class="row">
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="images/Foto_2.png" alt="...">
+					<div class="caption">
+						<h4>Phasellus Risus Quam</h4><br><p>Morbi mon nuns nec insum<br>tincidunt luctus allcquam vel nisi<br>Donec eu accumsan elit.</p>
 					</div>
 				</div>
 			</div>
-			<footer>
-				<nav>
-					<a href=""><!-- Vk --></a>
-					<a href=""><!-- FB --></a>
-					<a href=""><!-- Instagram --></a>
-					<a href=""><!-- Telegram --></a>
-				</nav>
-			</footer>
-		</body>
-		</html>
+
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="images/Foto_2.png" alt="...">
+					<div class="caption">
+						<h4>Maecenas Tincidunt</h4><br><p>Nulla facilise. Anenean porttitor<br>cursus aliquet. Praesent sit amet<br>dictum lacus. Risus eget auque.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="images/Foto_2.png" alt="...">
+					<div class="caption">
+						<h4>Pellentesque suscipit</h4><br><p>Vivamus placerat viverra<br>posuere. Duis quis luctus diam.<br>Allquam a mi id vei oeci lectus.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="images/Foto_2.png" alt="...">
+					<div class="caption">
+						<h4>Donec Eust Adipiscing</h4><br><p>Sed eu lorem sed lectus interdum<br>vehicula. Praesent sit amet  risus<br>eget augue semper.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<!------------------ Соціальні мережі ------------------->
+		<div id="social">
+			<a href="http://vk.com" title="Група Вк" target="_blank">
+				<img src="images/vk.svg" alt="Вк" title="Вк">
+			</a>
+			<a href="http://facebook.com" title="Група Facebook" target="_blank">
+				<img src="images/facebook.svg" alt="Facebook" title="Facebook">
+			</a>
+			<a href="http://twitter.com" title="Група Twitter" target="_blank">
+				<img src="images/twitter.svg" alt="Twitter" title="Twitter">
+			</a>
+			<a href="http://telegram.com" title="Група Telegram" target="_blank">
+				<img src="images/telegram.svg" alt="Telegram" title="Telegram">
+			</a>
+		</div>
+		<!------------------- Авторські права ------------------->
+		<div id="rights">
+			Все права защищены &copy; 2018 
+		</div>
+	</footer>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
