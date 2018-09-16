@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercise4</title>
+	<script type="text/javascript">
+		document.write("<h3>Завдання №4</h3>")
+		function buttonclic(form) {
+			var a = form.text.value;
+			var x = 0, y = 0;
+			for (var i = 0; i < a.length; i++) {
+				if(a[i] % 2 == 0) x++;
+				else y++;	
+			}
+			alert("В цьому рядку є " + x + " парних і " + y + " непарних чисел");
+		}
+	</script>
+</head>
+<body>
+	<form action="" method="post" onsubmit="buttonclic(this)">
+		<table>
+			<tr>
+				<td><label for="name">Введіть число:</label></td>
+				<td><input type="text" name="text"></td>
+				<td><input type="submit" name="submit" value="Дорівнює"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

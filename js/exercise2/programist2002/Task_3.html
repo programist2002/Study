@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercise2</title>
+	<script type="text/javascript">
+		document.write("<h3>Завдання №3</h3>")
+		function cliked(form) {
+			function perimetr(x) {
+				return x*4;
+			}
+			var stor = Number(form.storona.value);
+			document.write(" Периметр квадрата зі стороною " + stor + " = " + perimetr(stor) + "<br>");
+		}
+	</script>
+</head>
+<body>
+	<form action="" method="post" id="form">
+		<table>
+			<tr>
+				<td><label for="">Ведіть сторону квадрата:</label></td>
+				<td><input type="text" name="storona"></td>
+				<td rowspan="2"><input type="button" name="button" value="Обчислити" onclick="cliked(document.getElementById('form'))"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

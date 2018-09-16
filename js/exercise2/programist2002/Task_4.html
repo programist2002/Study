@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercise2</title>
+	<script type="text/javascript">
+		document.write("<h3>Завдання №4</h3>")
+		function cliked(form) {
+			function SM_on_Meter(x) {
+				return x/100;
+			}
+			function SM_on_Duim(x) {
+				return x/2.54;
+			}
+			var sm = Number(form.sm.value);
+			document.write(sm + " сантиметрів дорівнює " + SM_on_Meter(sm) + " метрів і " + SM_on_Duim(sm) + " дюймів.<br/>");
+		}
+	</script>
+</head>
+<body>
+	<form action="" method="post" id="form">
+		<table>
+			<tr>
+				<td><label for="">Довжина в сантиметрах:</label></td>
+				<td><input type="text" name="sm"></td>
+				<td rowspan="2"><input type="button" name="button" value="Обчислити" onclick="cliked(document.getElementById('form'))"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

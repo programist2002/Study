@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="Task_1_2_3_4.js"></script>
+	<title>Exercise2</title>
+	<script type="text/javascript">
+		document.write("<h3>Завдання №3</h3>");
+		function buttonclic(form) {
+			var rezult = 6 + Number(form.text.value);
+			alert("1+2+3+" + Number(form.text.value) + " = " + rezult);
+		}
+	</script>
+</head>
+<body>
+	<form action="" method="post" onsubmit="buttonclic(this)">
+		<table>
+			<tr>
+				<td><label for="name">1+2+3+</label></td>
+				<td><input type="text" name="text"></td>
+				<td><input type="submit" name="submit" value="Дорівнює"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
